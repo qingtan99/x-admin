@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美芯后台管理系统</title>
+    <link rel="shortcut icon" href="favicon.ico"> <link href="../../assets/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="../../assets/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="../../assets/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="../../assets/css/animate.css" rel="stylesheet">
+    <link href="../../assets/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="../../assets/css/sygl.css"rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>轮播图管理</h5>
+                    <button class="btn btn-success btn-sm" type="button">
+                        <i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">上传图片</span>
+                    </button>
+                    <span>上传的图片分辨率建议1920*620</span>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="banner-nav fix">
+                        <a href="javascript:;">
+                            <img src="http://ozwpnu2pa.bkt.clouddn.com/p1.jpg" alt="">
+                            <span class="banner-dele" title="删除图片">
+                                <i class="fa fa-close"></i>
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+                            <img src="http://ozwpnu2pa.bkt.clouddn.com/p1.jpg" alt="">
+                            <span class="banner-dele" title="删除图片">
+                                <i class="fa fa-close"></i>
+                            </span>
+                        </a>
+                        <a href="javascript:;">
+                            <img src="http://ozwpnu2pa.bkt.clouddn.com/p1.jpg" alt="">
+                            <span class="banner-dele" title="删除图片">
+                                <i class="fa fa-close"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="preview-con"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>公司文化描述</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="title">标题</label>
+                                <input id="title" type="text" class="form-control" placeholder="请输入标题...">
+                            </div>
+                            <div class="form-group">
+                                <label for="title">描述</label>
+                                <textarea class="form-control nosize form-group" id="message" rows="6" placeholder="请输入描述内容..."></textarea>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <button type="button" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>公司简介</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea class="form-control nosize form-group" id="message" rows="4" placeholder="请输入内容..."></textarea>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>合作客户管理</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-12 fix">
+                            <div class="custom-list fl fix">
+                                <a class="fancybox" href="javascript:;">
+                                    <img src="http://ozwpnu2pa.bkt.clouddn.com/p1.jpg" alt="">
+                                    <div class="fancy-mask">
+                                        <p>东莞美芯半导体设备有限公司</p>
+                                        <div class="fansy-btn">
+                                            <button type="button" class="btn btn-primary btn-xs">编辑</button>
+                                            <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="fancybox" href="javascript:;">
+                                    <img src="http://ozwpnu2pa.bkt.clouddn.com/p2.jpg" alt="">
+                                    <div class="fancy-mask">
+                                        <p>东莞美芯半导体设备有限公司</p>
+                                        <div class="fansy-btn">
+                                            <button type="button" class="btn btn-primary btn-xs">编辑</button>
+                                            <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="fancybox" href="javascript:;">
+                                    <img src="http://ozwpnu2pa.bkt.clouddn.com/p3.jpg" alt="">
+                                    <div class="fancy-mask">
+                                        <p>东莞美芯半导体设备有限公司</p>
+                                        <div class="fansy-btn">
+                                            <button type="button" class="btn btn-primary btn-xs">编辑</button>
+                                            <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="fancybox" href="javascript:;">
+                                    <img src="http://ozwpnu2pa.bkt.clouddn.com/p1.jpg" alt="">
+                                    <div class="fancy-mask">
+                                        <p>东莞美芯半导体设备有限公司</p>
+                                        <div class="fansy-btn">
+                                            <button type="button" class="btn btn-primary btn-xs">编辑</button>
+                                            <button type="button" class="btn btn-danger btn-xs">删除</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="custom-add fl">
+                                <a class="fancybox add-i" href="javascript:;">
+                                    <i class="fa fa-plus"></i>
+                                    <p>新增</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 全局js -->
+<script src="../../assets/js/jquery.min.js?v=2.1.4"></script>
+<script src="../../assets/js/bootstrap.min.js?v=3.3.6"></script>
+<!-- 自定义js -->
+<script src="../../assets/js/content.js?v=1.0.0"></script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+<!--统计代码，可删除-->
+</body>
+</html>

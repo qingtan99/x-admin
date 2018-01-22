@@ -42,6 +42,10 @@ a:focus {
     outline: none;
 }
 
+.nosize {
+    resize: none;
+}
+
 .nav > li > a {
     color: #a7b1c2;
     font-weight: 600;
@@ -3382,6 +3386,28 @@ body.boxed-layout #wrapper {
     overflow: hidden;
 }
 
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*清楚浮动*/
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
 a {
     cursor: pointer;
 }
@@ -3438,13 +3464,6 @@ video {
 .gallery > .row > div {
     margin-bottom: 15px;
 }
-
-.fancybox img {
-    margin-bottom: 5px;
-    /* Only for demo */
-    width: 24%;
-}
-
 
 /* Summernote text editor  */
 

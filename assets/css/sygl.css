@@ -1,0 +1,102 @@
+.fancybox {
+    position: relative;
+    display: block;
+    float: left;
+    width: 145px;
+    height: 145px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 5px 5px 0;
+}
+
+.fancybox img {
+    width: 100%;
+    height: 100%;
+}
+
+.fancybox .fancy-mask {
+    position: absolute;
+    top: 145px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, .3);
+    transition: all .3s;
+}
+
+.fancybox .fancy-mask p {
+    color: #fff;
+    text-align: center;
+}
+
+.fancy-mask .fa-paste {
+    color: #fff;
+    padding-top: 20px;
+    font-size:20px;
+}
+
+.fancy-mask .fansy-btn {
+    margin-top: 65px;
+}
+
+.fancybox:hover .fancy-mask {
+    top: 0;
+    background: rgba(0, 0, 0, .7);
+}
+
+.fancybox.add-i {
+    background: rgba(204,204,204, .87);
+}
+
+.fancybox.add-i .fa-plus {
+    margin-top: 45px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.fancybox.add-i p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.fancybox.add-i:hover {
+    background: rgba(204,204,204, 1);
+}
+
+.banner-nav a {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 5px 5px 0;
+    height: 280px;
+    width: 280px;
+    border-radius: 3px;
+    background: #f3f3f4;
+    overflow: hidden;
+    border: 1px solid #e7eaec;
+}
+
+.banner-nav a img {
+    width: 100%;
+    height: 100%;
+}
+
+.ibox-title .btn-sm {
+    margin: -7px 0 0 15px;
+}
+
+.banner-nav a .banner-dele {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #ec4758;
+}
+
+.banner-dele .fa-close {
+    color: #fff;
+}
