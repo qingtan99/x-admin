@@ -4149,6 +4149,8 @@ table.table-mail tr td {
 .ibox .open > .dropdown-menu {
     left: auto;
     right: 0;
+    max-height: 155px;
+    overflow-y: auto;
 }
 
 
@@ -7905,4 +7907,10 @@ body.skin-3 {
         width: 12.5%;
         font-size: 12px
     }
+}
+
+.table-striped .slt img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
