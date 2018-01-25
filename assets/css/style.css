@@ -7914,3 +7914,25 @@ body.skin-3 {
     height: 40px;
     cursor: pointer;
 }
+
+.form-group .up-wx {
+    position: relative;
+    border: 1px solid #ddd;
+    width: 172px;
+    height: 172px;
+    margin-top: 10px;
+}
+
+.up-wx .dele-img {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: #ec4758;
+    cursor: pointer;
+}
