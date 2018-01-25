@@ -36,15 +36,21 @@ RegExp)?(b[h]||(b[h]={}),V(b[h],c,d,g)):b[h]=c});return b}function t(b,c){return
     (b=g.getAttribute("data-requiremodule")),h=F[g.getAttribute("data-requirecontext")])}(h?h.defQueue:S).push([b,c,d])};define.amd={jQuery:!0};h.exec=function(b){return eval(b)};h(r)}})(this);
 
 var requireConfig = {
-    baseUrl: 'assets/js/',
+    baseUrl: '../../assets/js/',
     paths: {
         jquery: 'jquery.min',
         bootstrap: 'bootstrap.min',     //bootstrap
         metisMenu: 'plugins/metisMenu/jquery.metisMenu',    //菜单插件
         slimscroll: 'plugins/slimscroll/jquery.slimscroll.min',     //滚动条插件
         layer: 'plugins/layer/layer.min',   //弹出层插件
+        iCheck: 'plugins/iCheck/icheck.min', //选择框js
+        jqueryUi: 'plugins/jquery-ui/jquery-ui.min', //jquery ui
+        module: 'plugins/simditor/module',  //simditor依赖文件
+        hotkeys: 'plugins/simditor/hotkeys',    //simditor依赖文件
+        simditor: 'plugins/simditor/simditor',
         hplus: 'hplus', //自定义js
-        contabs: 'contabs'  //自定义js
+        contabs: 'contabs',  //自定义js
+        content: 'content'
     },
     waitSeconds: 0,
     shim: {
@@ -60,10 +66,28 @@ var requireConfig = {
         layer: {
             deps: ['jquery']
         },
+        iCheck: {
+            deps: ['jquery']
+        },
+        jqueryUi: {
+            deps: ['jquery']
+        },
+        module: {
+            deps: ['jquery']
+        },
+        hotkeys: {
+            deps: ['jquery']
+        },
+        simditor: {
+            deps: ['jquery']
+        },
         hplus: {
             deps: ['jquery']
         },
         contabs: {
+            deps: ['jquery']
+        },
+        content: {
             deps: ['jquery']
         }
     },
